@@ -1,0 +1,23 @@
+@import 'swiper/css';
+@import 'swiper/css/autoplay';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scrollLogo {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scrollLogo {
+  animation: scrollLogo 25s linear infinite;
+}

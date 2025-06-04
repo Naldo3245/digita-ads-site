@@ -1,0 +1,1 @@
+// About.jsx - conteúdo inicial

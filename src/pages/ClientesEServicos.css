@@ -1,0 +1,9 @@
+/* src/pages/ClientesEServicos.css */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-10%); }
+}
+
+.clientes-carousel {
+  animation: slide 15s linear infinite;
+}

@@ -1,0 +1,1 @@
+// firebaseConfig.js - conteúdo inicial
